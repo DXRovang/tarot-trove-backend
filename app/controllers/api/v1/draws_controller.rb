@@ -22,6 +22,6 @@ class Api::V1::DrawsController < ApplicationController
   private
 
   def draw_params
-    params.require(:draw).permit(:layout, :card_ids, :orientations)
+    params.require(:draw).permit(:layout, :created_at, :card_ids => [], :orientations => [])
   end
 end
