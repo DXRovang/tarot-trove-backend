@@ -1,4 +1,4 @@
-class CardsController < ApplicationController
+class Api::V1::CardsController < ApplicationController
 
   def index
     card = Card.all
