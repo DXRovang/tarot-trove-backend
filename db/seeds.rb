@@ -6,8 +6,9 @@ card_array = JSON.parse(cards)["cards"]
 
 card_array.each do |card|
   Card.create(
-    cardType: card["cardType"],
     name: card["name"],
+    suit: card["suit"],
+    cardType: card["cardType"],
     summary: card["summary"],
     image: card["image"],
     meaning_up: card["meaning_up"],

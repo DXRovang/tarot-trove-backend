@@ -9,6 +9,7 @@ class Api::V1::DrawsController < ApplicationController
   end
 
   def create
+    # binding.pry
     draw = Draw.create(draw_params)
     render json: draw
   end

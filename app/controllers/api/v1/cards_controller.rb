@@ -14,6 +14,7 @@ class Api::V1::CardsController < ApplicationController
   def card_params
     params.require(:card).permit(
       :name,
+      :suit,
       :created_at,
       :cardType,
       :summary,
