@@ -1,6 +1,6 @@
 require 'rest-client'
 
-cards = RestClient.get 'https://raw.githubusercontent.com/ronniekram/tarot-js-v2/main/front/src/cards.json'
+cards = RestClient.get 'https://raw.githubusercontent.com/DXRovang/tarot-trove-frontend/main/src/cards.json'
 
 card_array = JSON.parse(cards)["cards"]
 
@@ -16,3 +16,5 @@ card_array.each do |card|
     desc: card["desc"]
   )
 end
+
+# https://raw.githubusercontent.com/ronniekram/tarot-js-v2/main/front/src/cards.json
