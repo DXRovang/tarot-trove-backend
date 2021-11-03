@@ -1,24 +1,5 @@
-# README
+# TAROT TROVE (backend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application was created with Ruby on Rails, PostgreSQL, React, custom Bootstrap, and CSS.  
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+With the frontend deployed on GhPages and the backend now hosted on Heroku you can enjoy this application live at: https://dxrovang.github.io/tarot-trove-frontend/draws.  
