@@ -1,4 +1,4 @@
-# README
+# TAROT TROVE (backend)
 
 
 * rails db:create
